@@ -1,0 +1,52 @@
+    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin: 8px;
+    background-color: #011;
+    color: #AAA;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: max-content;
+    grid-auto-flow: row dense;
+}
+
+.article h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: #AAA;
+}
+
+.article p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #666;
+}
+
+.article p.articleInfo {
+    color: #444;
+}
+
+.article a,
+.article a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article img {
+    width: 100%;
+}
